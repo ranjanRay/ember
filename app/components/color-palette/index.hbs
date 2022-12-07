@@ -1,5 +1,5 @@
 {{#each this.colors as |color|}}
-  <ColorPalette::ColorBox @color={{color}}/>
+  <ColorPalette::ColorBox @color={{color}} @onClick={{this.removeColor}}/>
 {{/each}}
 <div class="container">
   <div class="input-div">
