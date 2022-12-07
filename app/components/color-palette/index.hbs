@@ -1,0 +1,14 @@
+{{#each this.colors as |color|}}
+  <ColorPalette::ColorBox @color={{color}}/>
+{{/each}}
+<div class="container">
+  <div class="input-div">
+    <label for="color-input">Your color: </label>
+    <input id="color-input-field" type="text" value={{this.userColorInput}} {{on "change" this.updateColor}}/>
+  </div>
+  <div class="input-div">
+    <label for="color-name">Color Name: </label>
+    <input id="color-name-field" type="text" value={{this.userColorInput}} {{on "change" this.updateColor}}/>
+  </div>
+  <button type="button" {{on "click" this.addColor}}>Add kar bhai</button>
+</div>
