@@ -97,14 +97,18 @@ form > button {
 #color-input-field {
   border: none;
   border-bottom: 1px solid #cccccc;
-  max-width: 65px;
+  max-width: 85px;
+  margin-bottom: 5px;
 }
 
 #color-name-field {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   text-align: left;
-  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  max-width: 70px;
+  margin-bottom: 5px
 }
 
 .container {
@@ -112,17 +116,18 @@ form > button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #da6c4d;
+  background-color: white;
   width: 190px;
   height: 190px;
   border-radius: 15px;
-  margin: 8px;
-  padding: 5px;
+  /* margin: 8px; */
+  /* padding: 5px; */
+  border: 1px solid black
 }
 
 .input-div {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 8px;
 }
